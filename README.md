@@ -17,7 +17,7 @@ Projemde kullanılan başlıca teknolojiler ve bu teknolojilerin sağladığı i
 - **Validation (Hibernate Validator)** ile kullanıcı giriş verilerinin doğruluğunu `@NotNull`, `@Pattern` gibi anotasyonlarla kontrol ettim. 
 - **JPA (Java Persistence API)** ile SQL sorguları yazma zorunluluğunu ortadan kaldırarak, veritabanı işlemlerini daha basit ve etkili hale getirdim.
 
-Ayrıca, **dependency injection** ve **constructor bazlı bağımlılık yönetimi** kullanarak kodun daha düzenli ve okunabilir olmasını sağladım. Bu sayede, sınıflar arası bağımlılıklar daha belirgin hale geldi ve test edilebilirlik arttı.
+Ayrıca, **constructor bazlı dependency injection** kullanarak kodun daha düzenli ve okunabilir olmasını sağladım. Bu sayede, sınıflar arası bağımlılıklar daha belirgin hale geldi ve test edilebilirlik arttı.
 
 **GlobalExceptionHandler** kullanarak uygulamadaki hataların daha düzgün bir şekilde yönetilmesini ve kullanıcı dostu mesajlar ile geri bildirim verilmesini sağladım. Bu yapı, hata ayıklama sürecini kolaylaştırırken, API kullanıcılarına anlamlı ve tutarlı hata mesajları sunar.
 
